@@ -1,5 +1,5 @@
 //const BASE_URL = "https://studynotion-pv3mcb6zj-yash-chauhans-projects-1816ec77.vercel.app/api/v1"
-const BASE_URL = "http://localhost:4000/api/v1"
+const BASE_URL = process.env.REACT_APP_BASE_URL ;
 
 // AUTH ENDPOINTS
 export const endpoints = {
